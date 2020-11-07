@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.toogle {
+  position: fixed;
+  background: white;
+  color: #d27e57;
+  width: 50px;
+  height: 50px;
+  top: 2rem;
+  left: 3rem;
+  border: 2px solid #d27e57;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  display: none;
+  cursor: pointer;
+}
+
+/* Banner - Header */
+.header {
+  height: 100vh;
+  background: url(../public/images/background_gral.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__section {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__section h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #d27e57;
+  margin-left: 10rem;
+}
+
+.header__section p {
+  margin-left: 10rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* BARRA DE NAVEGACIÓN  */
+
+.navbar {
+  background: black;
+}
+.navbar__right {
+  display: flex;
+  list-style-type: none;
+  margin-left: 9rem;
+  margin-top: 20px;
+}
+
+.navbar__right li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0 1.3rem;
+}
+
+.navbar__right li a:hover {
+  color: #d27e57;
+}
+
+
+
+
+
+/* Medias Query */
+@media (max-width: 768px) {
+  .header {
+    height: 60vh;
+  }
+  .header__section {
+    height: 60vh;
+  }
+  .header__section h1 {
+    font-size: 2.8rem;
+    margin-left: 4rem;
+  }
+  .header__section p {
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .navbar {
+    display: flex;
+    /* width: 5rem; */
+    position: fixed;
+    /* top: 0; */
+    z-index: 1;
+    /* border: none; */
+    /* margin-right: 20rem; */
+    /* margin-top:0; */
+    /* left: 0; */
+    text-align: left;
+    background: none;
+  }
+
+  .navbar__right {
+    flex-direction: column;
+    width: 80%;
+    background: #d27e57;
+    padding: .2rem;
+    margin-top: 1.5rem;
+    left: 0;
+    margin-left: 90px;
+  }
+
+  .navbar__right ul {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0 .2rem;
+    justify-content: start;
+  }
+  .navbar__right li {
+    margin: .3rem 0;
+    justify-content: 0 auto;
+  }
+  .navbar__right li:hover {
+    background: white;
+  }
+  .navbar__right li:hover a{
+    color: black;
+  }
+  .navbar__right li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    margin: 10px 0;
+  }
+
+
+
+
+
+  .toogle {
+    display: flex;
+}
+}
