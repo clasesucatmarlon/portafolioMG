@@ -11,7 +11,7 @@ const Banner = () => {
     return (
         <div>
             {/* <header className='header'> */}
-            <div className='container-fluid bg-primary header' id="banner">
+            <div className='container-fluid header' id="banner">
                 <div className='row'>
                     <div className='col-12'>
                         <div className='header__section'>

@@ -59,8 +59,49 @@ body::-webkit-scrollbar {
   color: white;
 }
 
-/* BARRA DE NAVEGACIÓN  */
 
+
+
+
+.header__ul {
+  list-style-type: none;
+  display: flex;
+  
+  margin-left: 10rem;
+}
+
+.header__ul a li {
+  font-size: 1.8rem;
+  width: 55px;
+  height: 55px;
+  border: 2px solid #d27e57;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.2rem;
+  color: white;
+}
+
+.header__ul a li:hover {
+  color: #d27e57;
+  background: white;
+  border: 2px solid black;
+}
+
+.header__ul li:first-child {
+  margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+/* BARRA DE NAVEGACIÓN  */
 .navbar {
   background: black;
 }
@@ -95,6 +136,14 @@ body::-webkit-scrollbar {
   .header__section {
     height: 60vh;
   }
+  .header__ul {
+    margin-left: 4rem;
+  }
+  .header__ul a li {
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+  }
   .header__section h1 {
     font-size: 2.8rem;
     margin-left: 4rem;
@@ -104,21 +153,13 @@ body::-webkit-scrollbar {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
-
   .navbar {
     display: flex;
-    /* width: 5rem; */
     position: fixed;
-    /* top: 0; */
     z-index: 1;
-    /* border: none; */
-    /* margin-right: 20rem; */
-    /* margin-top:0; */
-    /* left: 0; */
     text-align: left;
     background: none;
   }
-
   .navbar__right {
     flex-direction: column;
     width: 80%;
@@ -128,7 +169,6 @@ body::-webkit-scrollbar {
     left: 0;
     margin-left: 90px;
   }
-
   .navbar__right ul {
     text-decoration: none;
     color: white;
@@ -152,9 +192,13 @@ body::-webkit-scrollbar {
     color: white;
     font-size: 1.2rem;
     font-weight: 400;
-
     margin: 10px 0;
   }
+
+
+
+
+
 
 
 
