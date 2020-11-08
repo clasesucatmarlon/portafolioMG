@@ -7,9 +7,10 @@ import React from 'react';
 // Import owner
 import Banner from './Banner';
 import Nav from './Nav';
-/* import About from './About';
+import About from './About';
+import Contact from './Contact';
 import Services from './Services';
-import Portafolio from './Portafolio';
+/* import Portafolio from './Portafolio';
 import Skill from './Skill';
 import Footer from './Footer'; */
 
@@ -20,11 +21,12 @@ function Home() {
         <div className="home">
             <Nav />
             <Banner/>
-
-            
+            <About />
+            <Contact />
+            <Services />
 {/*           
-          <About />
-          <Services />
+          
+          
           <Portafolio />
           <Skill />
           <Footer /> */}
