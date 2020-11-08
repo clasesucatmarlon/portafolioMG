@@ -52,19 +52,16 @@ const Services = () => {
                         <div className='container '>
                             <div className='row'>
 
-                            {state.map(info => (
-                                <div className='colu-4'>
-                                    <div className='services__box'>
-                                        
-                                        <div>{info.icon}</div>
-                                        <div className='services__box-header'>{info.heading}</div>
-                                        <div className='services__box-p'>{info.textService}</div>
+                                {state.map(info => (
+                                    <div className='colu-4'>
+                                        <div className='services__box'>
+
+                                            <div>{info.icon}</div>
+                                            <div className='services__box-header'>{info.heading}</div>
+                                            <div className='services__box-p'>{info.textService}</div>
+                                        </div>
                                     </div>
-                                </div>
-                            ))}
-
-
-
+                                ))}
                             </div>
                         </div>
                     </div>
