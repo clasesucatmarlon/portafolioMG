@@ -76,8 +76,6 @@ const Portafolio = () => {
 
                     <div className="col-12">
                         <div className='container'>
-
-
                             <div className='row'>
                                 {state.map(info => (
                                     <div className='colu-4'>
@@ -120,71 +118,7 @@ const Portafolio = () => {
 
                         </div>
                     </div>
-
-
-
-
-
-
                 </div>
-
-
-
-
-
-
-
-
-
-                {/* <div className='portafolio__header'>
-                    <div className='common'>
-                        <h3 className='heading'>{header.mainHeader}</h3>
-                        <p className='mainContentPort'>{header.mainContent}</p>
-                        <div className='commonBorder'></div>
-                    </div>
-
-                    <div className='row bgMain'>
-                        {state.map(info => (
-                            <div className='col-4'>
-                                <div className='portafolio__box'>
-                                    <div className='containerImg'>
-                                        <img src={info.imag} className='commonImgPort' />
-                                    </div>
-                                    <div className='portafolio__box-header'>{info.heading}</div>
-                                    <div className='portafolio__box-p'>{info.textService}</div>
-                                    <div className='seeMore'>
-                                        <a href={info.url} target='_blank' className='portafolio__box-url'>
-                                            See page / Repository...
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-
-                    </div>
-
-                    <div className='row bgMain'>
-                        {state2.map(info => (
-                            <div className='col-4'>
-                                <div className='portafolio__box'>
-                                    <div className='containerImg'>
-                                        <img src={info.imag} className='commonImgPort' />
-                                    </div>
-                                    <div className='portafolio__box-header'>{info.heading}</div>
-                                    <div className='portafolio__box-p'>{info.textService}</div>
-                                    <div className='seeMore'>
-                                        <a href={info.url} target='_blank' className='portafolio__box-url'>
-                                            See page / Repository...
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-
-                    </div>
-
-
-                </div> */}
             </div>
         </div>
 

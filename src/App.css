@@ -215,7 +215,11 @@ strong {
   flex-direction: column;
 }
 
- /* SEVIVCES */
+ /* SEVICES */
+ .services {
+  background: black;
+ }
+
  .mainContentServices {
   font-size: 1.3rem;
   color: rgb(78, 75, 75);
@@ -512,7 +516,7 @@ strong {
     border-radius: 10px;
     margin: 20px;
     transition: all 0.5s linear;
-    width: 40%;
+    width: 70%;
     justify-content: center;
   }
   .centerBox {
