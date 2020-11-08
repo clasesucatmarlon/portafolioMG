@@ -1,8 +1,13 @@
 {
-  "main.css": "static/css/main.7c0fa564.css",
-  "main.css.map": "static/css/main.7c0fa564.css.map",
-  "main.js": "static/js/main.f6ca96a9.js",
-  "main.js.map": "static/js/main.f6ca96a9.js.map",
+  "main.css": "static/css/main.e29c19de.css",
+  "main.css.map": "static/css/main.e29c19de.css.map",
+  "main.js": "static/js/main.a7f0f6ab.js",
+  "main.js.map": "static/js/main.a7f0f6ab.js.map",
+  "static/media/Card_Children.jpeg": "static/media/Card_Children.bb4fbc7c.jpeg",
+  "static/media/airbnb-logo.png": "static/media/airbnb-logo.017ce7e3.png",
+  "static/media/background3.jpg": "static/media/background3.02223a45.jpg",
   "static/media/background_gral.jpg": "static/media/background_gral.c27ab769.jpg",
-  "static/media/fotomarlon.png": "static/media/fotomarlon.5f969db0.png"
+  "static/media/fotomarlon.png": "static/media/fotomarlon.5f969db0.png",
+  "static/media/monty.png": "static/media/monty.e84c6ad0.png",
+  "static/media/shell2.png": "static/media/shell2.23d28e7e.png"
 }
