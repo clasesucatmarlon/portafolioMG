@@ -11,8 +11,8 @@ import About from './About';
 import Contact from './Contact';
 import Services from './Services';
 import Portafolio from './Portafolio';
-/* import Skill from './Skill';
-import Footer from './Footer'; */
+import Skill from './Skill';
+/* import Footer from './Footer'; */
 
 
 function Home() {
@@ -25,12 +25,12 @@ function Home() {
             <Portafolio />
             <Contact />
             <Services />
-            
+            <Skill />
 {/*           
           
           
           
-          <Skill />
+          
           <Footer /> */}
 
           

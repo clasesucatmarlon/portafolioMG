@@ -158,9 +158,17 @@ body::-webkit-scrollbar {
 /* CONTACT */
 .contact {
   width: 100%;
-
   background-color: white;
   color: rgb(78, 75, 75);
+}
+
+.mainHeaderContact {
+  margin-bottom: 3rem;
+  font-weight: 500;
+  color: #d27e57;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 6rem;
 }
 
 .about__info-p1 {
@@ -365,6 +373,38 @@ strong {
 .seeMore a{
   text-decoration: none;
 }
+
+
+/* SKILL */
+.mainHeaderSkill {
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+  font-weight: 500;
+  color: #d27e57;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.skillBanner {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+.skillBanner img {
+  height: 110px;
+  width: 110px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 12px;
+  margin: 15px;
+  box-shadow: 0 2px 5px rgb(49, 47, 47);
+}
+
+
 
 /* Medias Query */
 @media (max-width: 768px) {

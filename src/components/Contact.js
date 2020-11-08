@@ -20,7 +20,7 @@ const Contact = () => {
         <div className='contact' id="contact">
             <div className='container'>
                 <div className='row d-flex'>
-                    <div className="col-12 mainHeader">
+                    <div className="col-12 mainHeaderContact">
                         <div className='commonBorder'></div>
                         <h1>{header.subHeader}</h1>
                         <div className='commonBorder'></div>
