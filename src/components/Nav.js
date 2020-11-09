@@ -3,7 +3,7 @@ import React from 'react';
 import { FaAlignJustify } from "react-icons/fa";
 
 const Nav = () => {
-    const [state, setState] = React.useState(true)
+    const [state, setState] = React.useState(false)
 
     return (
         <nav>

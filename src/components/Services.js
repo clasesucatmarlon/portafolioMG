@@ -65,47 +65,10 @@ const Services = () => {
                                         </div>
                                     </div>
                                 ))}
-
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
-
-
-                {/*  <div className="col-12 mainHeaderServices">
-                        <div className='commonBorder'></div>
-                        <h1>{header.mainHeader}</h1>
-                        <div className='commonBorder'></div>
-                    </div>
-
-                    <div className="col-12 centerContent">
-                        <div className='common'>
-                            <p className='mainContentServices'>{header.mainContent}</p>
-                        </div>
-                    </div>
-
-                    <div className="col-12">
-                        <div className='container '>
-                            <div className='row'>
-
-                                {state.map(info => (
-                                    <div className='colu-4'>
-                                        <div className='services__box'>
-
-                                            <div>{info.icon}</div>
-                                            <div className='services__box-header'>{info.heading}</div>
-                                            <div className='services__box-p'>{info.textService}</div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
 

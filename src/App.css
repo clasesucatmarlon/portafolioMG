@@ -648,6 +648,14 @@ strong {
   font-size: 1rem;
   text-align: center;
 }
+
+/* SERVICES */
+.mainContentServices {
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(216, 211, 211);
+}
+
 /* CONTACT */
 .about__info-p1 {
   font-size: 1rem;
