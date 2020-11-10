@@ -6,7 +6,7 @@ const Services = () => {
     const [header] = React.useState({
         mainHeader: 'My Services',
         subHeader: '',
-        mainContent: "Now that we know each-other better i’m going to tell you a secret. Nobody is coming to a website because of design. They will come for the service and content. Good design should make them stay, interact and, above all, offer them a easy-to-understand delightful way to interact with your content. My job is to add my design expertise to my clients' business expertise and design a solution that accomplishes their goals. I love doing this. I want to help you love it too.'"
+        mainContent: "Now that we know each other better, I'm going to tell you a secret. Nobody is going to come to a website for the design, they will come for the service and the content. A good design should make them stay, interact, and above all, offer them an easy to understand and enjoyable way to interact with their content. My job is to add my design experience to my clients' business trajectory and design a solution that meets their objectives. I love doing this. I want to help you like it too."
     });
 
     const [state] = React.useState([

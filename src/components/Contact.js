@@ -5,7 +5,7 @@ import Foto from '../../public/images/fotomarlon.png';
 const Contact = () => {
     const [header] = React.useState({
         subHeader: 'Contact me',
-        p1: 'You are not hiring a professional full stack developer you are hiring a mind that has been trained to solve problems in a very agile and effective way.',
+        p1: 'You are not hiring a professional full stack developer, you are hiring a mind that has been trained to solve problems in a very agile and effective way.',
         p2: 'Being a professional full stack developer is not an easy task, it involves handling every aspect of creating and maintaining an application. For that reason, I like to solve different problems that your company has, give agile and effective solutions, which implies delivering attractive stories, with designs adapted to the current market and above all, fulfill your expectations!.'
     });
 

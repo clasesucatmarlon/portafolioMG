@@ -5,7 +5,7 @@ import Foto from '../../public/images/fotomarlon.png';
 const About = () => {
     const [header] = React.useState({
         subHeader: 'About me',
-        mainContent: 'Currently in the stage of elaboration of a Degree Work in the Master of Virtual Teaching.  Bachelor of Education with a major in Computer Science and Mathematics, with more than 20 years of experience in the educational system as a university teacher in the area of Technology and Mathematic.  Loves software development and web design, and is able to form or belong to work teams, to hear and respect the opinions of others, and share knowledge.'
+        mainContent: 'Currently, I am in the thesis development stage for a Master in Virtual Education.  I have a degree in Education with a specialty in Computer Science and Mathematics, with more than 20 years of experience in the educational system as a university professor in the area of Technology and Mathematics.  I love software development and web design. I also like to form or belong to work teams, listen and respect the opinions of others, as well as share knowledge.'
     });
 
     const [state] = React.useState([
