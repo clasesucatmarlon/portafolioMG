@@ -3,7 +3,7 @@ import React from 'react';
 import { FaGithub, FaGgCircle, FaChalkboardTeacher } from "react-icons/fa";
 import Bomberbot from '../../public/images/Card_Children.jpeg';
 import AirBnB from '../../public/images/airbnb-logo.png';
-import Printf from '../../public/images/printf1.jpeg';
+import AppLinks from '../../public/images/appLinks.png';
 import Shell from '../../public/images/shell2.png';
 import Monty from '../../public/images/monty.png';
 
@@ -32,10 +32,10 @@ const Portafolio = () => {
         },
         {
             id: 3,
-            imag: Printf,
-            heading: 'PRINTF',
-            textService: 'Creation of a custom function present in the standard C library, supports string formatting and type conversion, C was used as the programming language.',
-            url: 'https://github.com/FatChicken277/printf'
+            imag: AppLinks,
+            heading: 'Manage Links',
+            textService: 'Application to manage links of interest, using Boostrap and Firebase as database management system.',
+            url: 'https://api-english-reactjs.web.app/'
         },
     ]);
 
