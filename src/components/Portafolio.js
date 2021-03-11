@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { FaGithub, FaGgCircle, FaChalkboardTeacher } from "react-icons/fa";
 import Bomberbot from '../../public/images/Card_Children.jpeg';
 import AirBnB from '../../public/images/airbnb-logo.png';
 import AppLinks from '../../public/images/appLinks.png';
