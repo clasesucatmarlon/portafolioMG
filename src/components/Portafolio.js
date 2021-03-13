@@ -5,6 +5,7 @@ import AirBnB from '../../public/images/airbnb-logo.png';
 import AppLinks from '../../public/images/appLinks.png';
 import Shell from '../../public/images/shell2.png';
 import Monty from '../../public/images/monty.png';
+import HeadPhones from '../../public/images/appHeadphones.png';
 
 const Portafolio = () => {
 
@@ -52,6 +53,13 @@ const Portafolio = () => {
             heading: 'MONTY',
             textService: 'Monty Script language interpreter that can read byte codes. It works with Stacks and Queues, it can push data, delete nodes, etc. For this project I use C, as programming language.',
             url: 'https://github.com/clasesucatmarlon/monty'
+        },
+        {
+            id: 3,
+            imag: HeadPhones,
+            heading: 'HEADPHONES',
+            textService: 'The project was done without the use of libraries. Only HTML, CSS, and Responsive Design were used. The goal is to achieve a fully functional website that has the same look and feel as the selected design file.',
+            url: 'https://clasesucatmarlon.github.io/projPortofolioHeadphones/'
         }
     ]);
 
@@ -80,7 +88,7 @@ const Portafolio = () => {
                                     <div className='colu-4'>
                                         <div className='portafolio__box'>
                                             <div className='containerImg'>
-                                                <img src={info.imag} className='commonImgPort' />
+                                                <img src={info.imag} className='commonImgPort' alt={info.heading}/>
                                             </div>
                                             <div className='portafolio__box-header'>{info.heading}</div>
                                             <div className='portafolio__box-p'>{info.textService}</div>
@@ -99,7 +107,7 @@ const Portafolio = () => {
                             <div className='colu-4'>
                                 <div className='portafolio__box'>
                                     <div className='containerImg'>
-                                        <img src={info.imag} className='commonImgPort' />
+                                        <img src={info.imag} className='commonImgPort' alt={info.heading} />
                                     </div>
                                     <div className='portafolio__box-header'>{info.heading}</div>
                                     <div className='portafolio__box-p'>{info.textService}</div>

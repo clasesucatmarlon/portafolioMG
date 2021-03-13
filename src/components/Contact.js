@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Foto from '../../public/images/fotomarlon.png';
 
 const Contact = () => {
     const [header] = React.useState({

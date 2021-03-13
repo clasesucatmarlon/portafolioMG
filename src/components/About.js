@@ -26,7 +26,7 @@ const About = () => {
                         <div className='commonBorder'></div>
                     </div>
                     <div className="col-12 col-lg-4 centerContent">
-                        <img className='imgAbout' src={Foto} alt='Picture marlon' />
+                        <img className='imgAbout' src={Foto} alt={header.mainContent} />
                     </div>
                     <div className="col-12 col-lg-6 ">
                         <div className='common'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithubAlt, FaPlay } from 'react-icons/fa';
+import { FaTwitter, FaLinkedinIn, FaGithubAlt } from 'react-icons/fa';
 
 
 const Banner = () => {

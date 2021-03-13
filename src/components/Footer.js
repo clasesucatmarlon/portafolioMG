@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='footerSection-logo'></div>
                     <div className='row informationFootfer justifyContent'>
                         <div>
-                            COPYRIGHT © Marlon García Portfolio 2020. All rights reserved.
+                            COPYRIGHT © Marlon García Portfolio 2021. All rights reserved.
                         </div>
                         <div className='aboutCircles'>
                             <ul className='footer__ul'>
@@ -24,8 +24,6 @@ const Footer = () => {
                                 <a href="https://github.com/clasesucatmarlon" target='_blank'>
                                     <li><FaGithubAlt /></li>
                                 </a>
-
-
                             </ul>
                         </div>
                     </div>
