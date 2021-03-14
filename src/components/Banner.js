@@ -6,6 +6,7 @@ const Banner = () => {
     const [state] = React.useState({
         title: 'Hey!, I am Marlon García',
         text: "Professional full stack developer",
+        skill: 'Javascript - Python - HTML - CSS -  Bootstrap - MySQL - Git - Github',
         image: 'https://user-images.githubusercontent.com/60376045/98049840-7d899780-1dfe-11eb-9384-81c6fa5e7465.png'
     });
     return (
@@ -27,7 +28,8 @@ const Banner = () => {
                                 </a>
                             </ul>
                             <h1>{state.title}</h1>
-                            <p>{state.text}</p>
+                            <p className="text__title">{state.text}</p>
+                            <p className='text__skill'>{state.skill}</p>
                         </div>
                     </div>
                 </div>

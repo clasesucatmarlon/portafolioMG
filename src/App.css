@@ -58,12 +58,20 @@ body::-webkit-scrollbar {
   margin-left: 10rem;
 }
 
-.header__section p {
+.header__section .text__title {
   margin-left: 10rem;
   font-size: 2.5rem;
   font-weight: 300;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   color: white;
+}
+
+.header__section .text__skill {
+  margin-left: 10rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: #bedfe6;
 }
 
 .header__ul {
