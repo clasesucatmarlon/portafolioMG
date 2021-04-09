@@ -35,7 +35,7 @@ const Portafolio = () => {
             imag: AppLinks,
             heading: 'Manage Links',
             textService: 'Application to manage links of interest, using Boostrap and Firebase as database management system.',
-            url: 'https://applinks-cc96c.web.app/'
+            url: 'https://linksaplications.web.app/'
         },
     ]);
 
