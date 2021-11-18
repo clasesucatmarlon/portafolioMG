@@ -1,67 +1,42 @@
 import React from 'react';
 
-import Bomberbot from '../../public/images/Card_Children.jpeg';
-import AirBnB from '../../public/images/airbnb-logo.png';
-import AppLinks from '../../public/images/appLinks.png';
-import Shell from '../../public/images/shell2.png';
-import Time from '../../public/images/appTimeWeather.png';
-import HeadPhones from '../../public/images/appHeadphones.png';
+// import Bomberbot from '../../public/images/Card_Children.jpeg';
+// import AirBnB from '../../public/images/airbnb-logo.png';
+// import AppLinks from '../../public/images/appLinks.png';
+// import Shell from '../../public/images/shell2.png';
+// import Time from '../../public/images/appTimeWeather.png';
+// import HeadPhones from '../../public/images/appHeadphones.png';
+import Data from '../data/Data';
 
 const Portafolio = () => {
 
-    const [header] = React.useState({
-        mainHeader: 'My Projects',
-        subHeader: '',
-        mainContent: "Since my beginnings in this magical world of development I have created and participated in the following projects:"
-    });
+    const [header] = React.useState(Data);
 
-    const [state] = React.useState([
-        {
-            id: 1,
-            imag: Bomberbot,
-            heading: 'Bomberbot PARENTS',
-            textService: "Allows parents to track and engage with their children's performance, understand what they are learning and how they are doing it, all in real time and from anywhere.",
-            url: 'https://bomberbotparents.netlify.app/'
-        },
-        {
-            id: 2,
-            imag: AirBnB,
-            heading: 'AirBnB CLONE',
-            textService: 'Presents a console in which you can manipulate the data present in a json file,. It can also be deployed on any mobile device under ćaracterística response.',
-            url: 'https://github.com/clasesucatmarlon/AirBnB_clone_v3'
-        },
-        {
-            id: 3,
-            imag: AppLinks,
-            heading: 'Manage Links',
-            textService: 'Application to manage links of interest, using Boostrap and Firebase as database management system.',
-            url: 'https://linksaplications.web.app/'
-        },
-    ]);
+    const [state] = React.useState(Data.projects);
 
-    const [state2] = React.useState([
-        {
-            id: 1,
-            imag: Shell,
-            heading: 'SINGLE SHELL',
-            textService: 'Shell for Linux where you can run the binaries present in Linux, such as ls, cat, rm, etc. It is optimized, no memory leaks are possible. For this project I use C, as programming language.',
-            url: 'https://github.com/AndresCallejasG/simple_shell'
-        },
-        {
-            id: 2,
-            imag: Time,
-            heading: 'Weather',
-            textService: 'Application to display the weather for Bogota and the forecast for the next three days, as well as for Lyon and Paris.  It consumed openWeather api using Javascrip, html, css and bootstrap..',
-            url: 'http://timegradiweb1.herokuapp.com/'
-        },
-        {
-            id: 3,
-            imag: HeadPhones,
-            heading: 'HEADPHONES',
-            textService: 'The project was done without the use of libraries. Only HTML, CSS, and Responsive Design were used. The goal is to achieve a fully functional website that has the same look and feel as the selected design file.',
-            url: 'https://clasesucatmarlon.github.io/projPortofolioHeadphones/'
-        }
-    ]);
+    // const [state2] = React.useState([
+    //     {
+    //         id: 1,
+    //         imag: Shell,
+    //         heading: 'SINGLE SHELL',
+    //         textService: 'Shell for Linux where you can run the binaries present in Linux, such as ls, cat, rm, etc. It is optimized, no memory leaks are possible. For this project I use C, as programming language.',
+    //         url: 'https://github.com/AndresCallejasG/simple_shell'
+    //     },
+    //     {
+    //         id: 2,
+    //         imag: Time,
+    //         heading: 'Weather',
+    //         textService: 'Application to display the weather for Bogota and the forecast for the next three days, as well as for Lyon and Paris.  It consumed openWeather api using Javascrip, html, css and bootstrap..',
+    //         url: 'http://timegradiweb1.herokuapp.com/'
+    //     },
+    //     {
+    //         id: 3,
+    //         imag: HeadPhones,
+    //         heading: 'HEADPHONES',
+    //         textService: 'The project was done without the use of libraries. Only HTML, CSS, and Responsive Design were used. The goal is to achieve a fully functional website that has the same look and feel as the selected design file.',
+    //         url: 'https://clasesucatmarlon.github.io/projPortofolioHeadphones/'
+    //     }
+    // ]);
 
     return (
 
@@ -84,8 +59,8 @@ const Portafolio = () => {
                     <div className="col-12">
                         <div className='container'>
                             <div className='row'>
-                                {state.map(info => (
-                                    <div className='colu-4'>
+                                {state.map((info, index) => (
+                                    <div key={index} className='colu-4'>
                                         <div className='portafolio__box'>
                                             <div className='containerImg'>
                                                 <img src={info.imag} className='commonImgPort' alt={info.heading}/>
@@ -102,7 +77,7 @@ const Portafolio = () => {
                                 ))}
                             </div>
 
-                            <div className='row'>
+                            {/* <div className='row'>
                             {state2.map(info => (
                             <div className='colu-4'>
                                 <div className='portafolio__box'>
@@ -121,7 +96,7 @@ const Portafolio = () => {
                         ))}
                             
                             
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>
